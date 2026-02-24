@@ -1,0 +1,38 @@
+{
+  "name": "@pipobscure/vcard",
+  "version": "0.0.1",
+  "description": "A fully featured and compliant vCard v4 (RFC 6350) library for parsing and generating vCard data, designed for use with CardDAV",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "node --test dist/tests/*.js",
+    "test:src": "npx tsx --test src/tests/*.test.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vcard",
+    "vcard4",
+    "carddav",
+    "contacts",
+    "rfc6350"
+  ],
+  "author": "pipobscure",
+  "license": "EUPL-1.2",
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "typescript": "^5.7.0"
+  }
+}
