@@ -20,7 +20,8 @@
     "build:watch": "tsc --watch",
     "test": "node --test dist/tests/*.js",
     "test:src": "npx tsx --test src/tests/*.test.ts",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "postversion": "git push --follow-tags"
   },
   "keywords": [
     "vcard",
