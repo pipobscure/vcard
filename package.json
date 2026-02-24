@@ -30,8 +30,12 @@
     "contacts",
     "rfc6350"
   ],
-  "author": "pipobscure",
+  "author": "Philipp Dunkel <pip@pipobscure.com>",
   "license": "EUPL-1.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipobscure/vcard"
+  },
   "devDependencies": {
     "@types/node": "^25.3.0",
     "typescript": "^5.7.0"
