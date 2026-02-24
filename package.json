@@ -1,6 +1,6 @@
 {
   "name": "@pipobscure/vcard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fully featured and compliant vCard v4 (RFC 6350) library for parsing and generating vCard data, designed for use with CardDAV",
   "type": "module",
   "main": "dist/index.js",
